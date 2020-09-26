@@ -74,14 +74,16 @@
 
 }
 @media (min-width: 768px) and (max-width: 991px){
-  .col-lg-6{
-    float: left;
-    border:1px;
-  }
+	.col-md-6{
+		float: left;
+		border:1px;
+		
+		
+	}
+	.col-md-6{
+		width: 50%;
 
-  .col-lg-6 {
-    width: 50%;
-  }
+	}
 	
 	.a {
 	border: 5px solid blue;
@@ -149,9 +151,6 @@
 	padding: 40px 10px 10px 10px;
 
 	}
-
-
-	
 }
 
 @media (max-width: 767px){
@@ -233,15 +232,6 @@
 
 	}
 }
-
-
-
-
-
-
-
-
-
 
 h1{
 	text-align: center;
